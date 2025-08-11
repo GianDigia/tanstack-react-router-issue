@@ -14,7 +14,7 @@ import reportWebVitals from './reportWebVitals.ts'
 
 import App from './App.tsx'
 
-const rootRoute = createRootRoute({
+export const rootRoute = createRootRoute({
   component: () => (
     <>
       <Outlet />
